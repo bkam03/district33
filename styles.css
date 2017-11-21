@@ -1,9 +1,45 @@
 body {
-  background: yellowgreen;
+  display: flex;
+  flex-direction: column;
+  background: rgb(108, 108, 247);
+}
+
+.header {
+  text-align: center;
+  border: 1px solid black;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid black;
+}
+
+.main {
+  border: 1px solid black;
+
+  height: 100%;
+  width: 100%;
+  background-image: url(./resources/senjougahara_by_magenta_anbu-d4qadh5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.title {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  color: black;
+  text-align: center;
+  background: grey;
+  opacity: 0.8;
+}
+
+.footer {
+  text-align: center;
+  border: 1px solid black;
 }
