@@ -30,18 +30,15 @@ let galleryPics = [
 
 let targetDivForGallery = document.querySelector("#gallery");
 
-galleryPics.forEach( function( pic ){
+galleryPics.forEach(function(pic) {
   //make container div for pic
-  let newImage = document.createElement('div');
+  let newImage = document.createElement("div");
   newImage.className = "imgContainer";
   //create and set image + attributes
-  let img = document.createElement('img');
-  img.src = resourcePath+pic.name;
+  let img = document.createElement("img");
+  img.src = resourcePath + pic.name;
   img.className = "galleryPic";
 
-
-  newImage.appendChild( img );
-  targetDivForGallery.appendChild( newImage );
-
-  console.log( newImage );
-} );
+  newImage.appendChild(img);
+  targetDivForGallery.appendChild(newImage);
+});

@@ -21,8 +21,9 @@ body {
     border: 1px solid black;
 
     height: 100vh;
-    background: url(../resources/senjougahara_by_magenta_anbu-d4qadh5.png)
+    background: url(../resources/legSeatPic.jpg)
       no-repeat fixed;
+    background-position: 75% 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,7 +31,7 @@ body {
 
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
   @media screen and (min-width: 500px) {
     .main {
@@ -43,16 +44,24 @@ body {
     justify-content: flex-end;
 
     border: 1px solid yellow;
-    opacity: 0.3;
+    //opacity: 0.3;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
 
     .menuButton {
       border: 1px solid black;
-      margin: 10px;
+      margin: 20px;
+      a {
+        font-size: 40px;
+        text-decoration: none;
+        color: white;
+      }
     }
   }
 
   .title {
-    grid-row-start: 4;
+    grid-row-start: 5;
     grid-column-start: 2;
     color: black;
     font-size: 5vh;
