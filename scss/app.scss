@@ -1,7 +1,15 @@
 @import "./partials/header";
+@import "./partials/footer";
+@import "./partials/_home.scss";
 
 $variable: green; //use like font: $variable;
 
 body {
   background: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
