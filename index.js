@@ -16,6 +16,10 @@ app.set("view engine", "hbs");
 
 app.use(express.static(path.join(__dirname, "/public")));
 
+app.get("/issues", (req, res) => {
+  res.render("issues");
+});
+
 app.get("/", (req, res) => {
   res.render("home"); //( view, dataToInput )
 });
