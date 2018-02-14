@@ -2,10 +2,10 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const path = require("path");
 
+let galleryData = require("./public/js/galleryData.js");
+
 const app = express();
-
 const PORT = process.env.PORT || 3000;
-
 const hbs = exphbs.create({
   defaultLayout: "main",
   extname: "hbs"
@@ -18,6 +18,11 @@ app.use(express.static(path.join(__dirname, "/public")));
 
 app.get("/issues", (req, res) => {
   res.render("issues");
+});
+
+app.get("/gallery", (req, res) => {
+  //console.log("galleryData", galleryData.galleries[1]);
+  res.render("gallery", galleryData);
 });
 
 app.get("/", (req, res) => {
