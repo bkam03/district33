@@ -1,0 +1,22 @@
+<div>
+  {{#each galleries}}
+  <div class="gallery">
+    <h2>{{eventName}}</h2>
+    <p>{{description}}</p>
+
+    {{#each photos}}
+    <img src={{photo}} alt="{{photo}}"> {{/each}} {{!-- {{>galleryPhotos}} --}}
+  </div>
+  {{/each}}
+</div>
+
+{{!--
+<div>
+  {{#each books}}
+  <div class='book'>
+    <p>{{title}}</p>
+    <p>{{author}}</p>
+  </div>
+  {{/each}} {{name}}
+</div>
+--}}
