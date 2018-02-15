@@ -2,7 +2,7 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const path = require("path");
 
-let galleryData = require("./public/js/galleryData.js");
+const galleryData = require("./public/js/galleryData.js");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
