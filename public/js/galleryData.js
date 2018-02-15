@@ -32,10 +32,10 @@ const galleryArray = [
 ];
 
 for (var i = 0; i < galleryArray.length; i++) {
-  let currentGallery = galleryArray[i];
+  var currentGallery = galleryArray[i];
 
-  let currentGalleryPath = `./public/resources/${currentGallery.folder}/`;
-  let listOfPhotosInDirectory = fs.readdirSync(currentGalleryPath);
+  var currentGalleryPath = `./public/resources/${currentGallery.folder}/`;
+  var listOfPhotosInDirectory = fs.readdirSync(currentGalleryPath);
   currentGallery.photos = listOfPhotosInDirectory;
 
   for (var p = 0; p < currentGallery.photos.length; p++) {
@@ -45,7 +45,7 @@ for (var i = 0; i < galleryArray.length; i++) {
   }
 }
 
-let galleryData = {
+var galleryData = {
   galleries: galleryArray
 };
 
