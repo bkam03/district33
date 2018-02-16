@@ -49,6 +49,6 @@ var galleryData = {
   galleries: galleryArray
 };
 
-//console.log(galleryData.galleries);
+//console.log(galleryData.galleries[1]);
 
 module.exports = galleryData;
