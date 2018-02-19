@@ -1,6 +1,9 @@
-<h1>bob is king</h1>
-{{#each issues}}
-<h2>{{issue}}</h2>
-<h3>{{subheading}}</h3>
-<p>{{description}}</p>
-{{/each}}
+<div class="limitedWidthDiv">
+  {{#each issues}}
+  <div class="issueBlock">
+    <h2 class="issue">{{issue}}</h2>
+    <h3 class="subheading">{{subheading}}</h3>
+    <p class="description">{{description}}</p>
+  </div>
+  {{/each}}
+</div>

@@ -1,11 +1,12 @@
 <div>
   {{#each galleries}}
-  <div class="gallery">
-    <h2>{{eventName}}</h2>
-    <p>{{description}}</p>
-
-    {{#each photos}}
-    <img src={{photo}} alt="{{photo}}" class="galleryPhoto"> {{/each}} {{!-- {{>galleryPhotos}} --}}
+  <div class="galleryBlock">
+    <h2 class="eventName">{{eventName}}</h2>
+    <p class="description">{{description}}</p>
+    <div class="photos">
+      {{#each photos}}
+      <img src={{photo}} alt="{{photo}}" class="galleryPhoto"> {{/each}} {{!-- {{>galleryPhotos}} --}}
+    </div>
   </div>
   {{/each}}
 </div>
