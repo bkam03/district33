@@ -1,22 +1,27 @@
 .header {
-  background: white;
+  background: green;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
 
 #titleBox {
   width: 100%;
-  height: 75px; }
-  #titleBox .title {
-    margin: 0px 0px 0px 0px;
-    color: green;
-    text-align: center; }
+  text-align: center;
+  color: white; }
+  #titleBox #title {
+    margin: 5px 0px 0px 0px;
+    font-size: 100px; }
+  #titleBox #slogan {
+    font-size: 40px;
+    margin: 0px 0px 0px 0px; }
 
 .mainMenu {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  max-width: 1500px;
+  margin: auto;
   border: 1px solid blue; }
   .mainMenu .menuButton {
     border: 1px solid black;
@@ -37,10 +42,12 @@
     color: blue; } }
 
 .footer {
+  background: green;
   text-align: center;
   border: 1px solid black;
   padding: 30px;
-  opacity: 0.6; }
+  opacity: 0.6;
+  color: white; }
 
 .landingPagePic {
   border: 1px solid black;

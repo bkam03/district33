@@ -1,5 +1,5 @@
 .header {
-  background: white;
+  background: green;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -7,11 +7,16 @@
 
 #titleBox {
   width: 100%;
-  height: 75px;
-  .title {
+  text-align: center;
+  color: white;
+
+  #title {
+    margin: 5px 0px 0px 0px;
+    font-size: 100px;
+  }
+  #slogan {
+    font-size: 40px;
     margin: 0px 0px 0px 0px;
-    color: green;
-    text-align: center;
   }
 }
 
@@ -20,6 +25,8 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  max-width: 1500px;
+  margin: auto;
 
   border: 1px solid blue;
 
