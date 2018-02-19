@@ -7,7 +7,8 @@
 #titleBox {
   width: 100%;
   text-align: center;
-  color: white; }
+  color: white;
+  text-decoration: none; }
   #titleBox #title {
     margin: 5px 0px 0px 0px;
     font-size: 100px; }
@@ -98,3 +99,6 @@ body {
     max-height: 25%;
     max-width: 30%;
     margin: 10px; }
+
+.aboutBlock {
+  padding: 20px; }
