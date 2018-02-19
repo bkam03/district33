@@ -6,6 +6,7 @@ $variable: green; //use like font: $variable;
 
 body {
   background: white;
+  font-family: Helvetica;
 }
 
 .content {
@@ -14,7 +15,47 @@ body {
   align-items: center;
 }
 
-.galleryPhoto {
-  max-height: 100px;
-  max-width: 100px;
+.limitedWidthDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.issueBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+  .issue {
+    margin-bottom: 5px;
+  }
+  .subheading {
+    margin: 0px;
+  }
+  .description {
+    font-size: 20px;
+  }
+}
+
+.galleryBlock {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+
+  padding: 10px;
+
+  .eventName {
+  }
+  .description {
+  }
+  .photos {
+    .galleryPhoto {
+      max-height: 25%;
+      max-width: 30%;
+      margin: 10px;
+    }
+  }
 }
