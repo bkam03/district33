@@ -26,6 +26,10 @@ app.get("/gallery", (req, res) => {
   res.render("gallery", galleryData);
 });
 
+app.get("/about", (req, res) => {
+  res.render("about");
+});
+
 app.get("/", (req, res) => {
   res.render("home"); //( view, dataToInput )
 });
