@@ -59,7 +59,8 @@
 
 body {
   background: white;
-  font-family: Helvetica; }
+  font-family: Helvetica;
+  margin: 0px 0px 0px 0px; }
 
 .content {
   display: flex;
