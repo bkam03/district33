@@ -12,8 +12,9 @@
   text-decoration: none;
 
   #title {
-    margin: 5px 0px 0px 0px;
-    font-size: 100px;
+    margin: 25px 0px 0px 0px;
+    font-size: 115px;
+    line-height: 0.8;
   }
   #slogan {
     font-size: 40px;
@@ -26,7 +27,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1200px;
   margin: auto;
 
   //border: 1px solid blue;
@@ -39,7 +40,7 @@
     align-items: center;
 
     a {
-      font-size: 18px;
+      font-size: 22px;
       text-decoration: none;
       color: black;
     }
