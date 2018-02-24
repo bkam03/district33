@@ -10,8 +10,9 @@
   color: white;
   text-decoration: none; }
   #titleBox #title {
-    margin: 5px 0px 0px 0px;
-    font-size: 100px; }
+    margin: 25px 0px 0px 0px;
+    font-size: 115px;
+    line-height: 0.8; }
   #titleBox #slogan {
     font-size: 40px;
     margin: 0px 0px 0px 0px; }
@@ -21,7 +22,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1200px;
   margin: auto; }
   .mainMenu .menuButton {
     margin: 5px 20px 5px 20px;
@@ -29,7 +30,7 @@
     display: flex;
     align-items: center; }
     .mainMenu .menuButton a {
-      font-size: 18px;
+      font-size: 22px;
       text-decoration: none;
       color: black; }
 
@@ -65,14 +66,15 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  border: 1px solid black;
+  max-width: 1200px;
+  margin: auto; }
 
 .limitedWidthDiv {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  max-width: 1200px;
-  margin: auto; }
+  align-items: center; }
 
 .issueBlock {
   display: flex;
@@ -87,13 +89,20 @@ body {
     font-size: 20px; }
 
 .galleryBlock {
-  display: flex;
-  flex-direction: column;
+  border: 1px solid black;
+  width: 100%;
   padding: 10px; }
-  .galleryBlock .photos .galleryPhoto {
-    max-height: 25%;
-    max-width: 30%;
-    margin: 10px; }
+  .galleryBlock .galleryText {
+    padding: 10px; }
+  .galleryBlock .photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .galleryBlock .photos .galleryPhoto {
+      margin: 10px;
+      max-height: 300px;
+      max-width: 300px; }
 
 .aboutBlock {
   padding: 20px; }

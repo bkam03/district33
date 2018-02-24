@@ -14,14 +14,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid black;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .limitedWidthDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1200px;
-  margin: auto;
 }
 
 .issueBlock {
@@ -42,21 +43,29 @@ body {
 }
 
 .galleryBlock {
-  display: flex;
-  flex-direction: column;
-  //border: 1px solid black;
+  border: 1px solid black;
+  width: 100%;
 
   padding: 10px;
 
-  .eventName {
-  }
-  .description {
+  .galleryText {
+    padding: 10px;
+
+    .eventName {
+    }
+    .description {
+    }
   }
   .photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
     .galleryPhoto {
-      max-height: 25%;
-      max-width: 30%;
       margin: 10px;
+      max-height: 300px;
+      max-width: 300px;
     }
   }
 }
