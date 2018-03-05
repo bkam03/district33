@@ -1,5 +1,4 @@
 var menuRevealButton = document.querySelector("#menuRevealButton");
-console.log(menuRevealButton);
 menuRevealButton.addEventListener("click", function() {
   var menuButtons = document.querySelectorAll(".menuButton");
   menuButtons.forEach(menuButton => {
