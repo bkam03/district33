@@ -45,24 +45,49 @@
   padding: 20px;
   color: white; }
 
-#titleBox {
-  background: green;
+.titleBox {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 95vh;
   text-align: center;
   color: white;
   text-decoration: none;
   padding-bottom: 10px; }
-  #titleBox #title {
+  .titleBox .title {
     margin: 10px 0px 0px 0px;
-    font-size: 115px;
     line-height: 0.8; }
-  #titleBox #slogan {
-    font-size: 40px;
+  .titleBox .slogan {
     margin: 0px 0px 0px 0px; }
+
+#mobileTitle {
+  height: 95vh;
+  background: green; }
+  #mobileTitle .title {
+    margin: 10px 0px 0px 0px;
+    font-size: 100px;
+    line-height: 0.8; }
+  #mobileTitle .slogan {
+    font-size: 30px;
+    margin: 0px 0px 0px 0px; }
+
+#fullSizeTitle {
+  display: none;
+  grid-column-start: 2;
+  grid-row-start: 2; }
+  #fullSizeTitle .title {
+    margin: 10px 0px 0px 0px;
+    font-size: 10vh;
+    line-height: 0.8; }
+  #fullSizeTitle .slogan {
+    font-size: 3vh;
+    margin: 0px 0px 0px 0px; }
+
+@media screen and (min-width: 600px) {
+  #mobileTitle {
+    display: none; }
+  #fullSizeTitle {
+    display: flex; } }
 
 .landingPagePic {
   height: 100vh;
@@ -72,7 +97,10 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 30vh 5fr;
+  grid-template-rows: 8vh 25vh 1fr; }
 
 body {
   background: white;
