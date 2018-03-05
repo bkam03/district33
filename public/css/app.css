@@ -4,19 +4,6 @@
   flex-direction: row;
   flex-wrap: wrap; }
 
-#titleBox {
-  width: 100%;
-  text-align: center;
-  color: white;
-  text-decoration: none; }
-  #titleBox #title {
-    margin: 25px 0px 0px 0px;
-    font-size: 115px;
-    line-height: 0.8; }
-  #titleBox #slogan {
-    font-size: 40px;
-    margin: 0px 0px 0px 0px; }
-
 .mainMenu {
   display: flex;
   flex-direction: column;
@@ -55,8 +42,27 @@
 .footer {
   background: green;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   color: white; }
+
+#titleBox {
+  background: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 95vh;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 10px; }
+  #titleBox #title {
+    margin: 10px 0px 0px 0px;
+    font-size: 115px;
+    line-height: 0.8; }
+  #titleBox #slogan {
+    font-size: 40px;
+    margin: 0px 0px 0px 0px; }
 
 .landingPagePic {
   height: 100vh;
