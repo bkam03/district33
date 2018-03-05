@@ -22,6 +22,9 @@
   }
 }
 
+$menuButtonTextColor: black;
+$menuButtonSize: 22px;
+
 .mainMenu {
   display: flex;
   flex-direction: column;
@@ -31,6 +34,15 @@
   margin: auto;
 
   //border: 1px solid blue;
+  #menuRevealButton {
+    //border: 1px solid black;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+
+    font-size: $menuButtonSize+4px;
+    color: $menuButtonTextColor;
+  }
 
   .menuButton {
     //border: 1px solid black;
@@ -41,9 +53,9 @@
     display: none;
 
     a {
-      font-size: 22px;
+      font-size: $menuButtonSize;
       text-decoration: none;
-      color: black;
+      color: $menuButtonTextColor;
     }
   }
 }

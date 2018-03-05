@@ -24,6 +24,12 @@
   width: 100%;
   max-width: 1200px;
   margin: auto; }
+  .mainMenu #menuRevealButton {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    font-size: 26px;
+    color: black; }
   .mainMenu .menuButton {
     margin: 5px 20px 5px 20px;
     padding: 5px;
