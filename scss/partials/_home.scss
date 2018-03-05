@@ -23,6 +23,12 @@
   }
 }
 
+@media screen and (min-width: 600px) {
+  #titleBox {
+    display: none;
+  }
+}
+
 .landingPagePic {
   //border: 1px solid black;
   height: 100vh;
