@@ -19,7 +19,7 @@
 
 .mainMenu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   max-width: 1200px;
@@ -27,8 +27,8 @@
   .mainMenu .menuButton {
     margin: 5px 20px 5px 20px;
     padding: 5px;
-    display: flex;
-    align-items: center; }
+    text-align: center;
+    display: none; }
     .mainMenu .menuButton a {
       font-size: 22px;
       text-decoration: none;
@@ -36,7 +36,12 @@
 
 @media screen and (min-width: 600px) {
   .mainMenu {
+    flex-direction: row;
     justify-content: flex-end; }
+    .mainMenu .menuButton {
+      display: inline; }
+    .mainMenu #menuRevealButton {
+      display: none; }
   a {
     font-size: 40px;
     color: blue; } }
@@ -45,7 +50,6 @@
   background: green;
   text-align: center;
   padding: 30px;
-  opacity: 0.6;
   color: white; }
 
 .landingPagePic {
