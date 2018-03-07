@@ -60,12 +60,20 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    //justify-content: center;
 
     .galleryPhoto {
       margin: 10px;
-      max-height: 300px;
+      // max-height: auto;
+      // max-width: 300px;
+      // width: auto;
+      // height: auto;
+
+      display: block;
       max-width: 300px;
+      max-height: 200px;
+      width: auto;
+      height: auto;
     }
   }
 }
