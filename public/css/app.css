@@ -133,7 +133,6 @@ body {
     font-size: 20px; }
 
 .galleryBlock {
-  border: 1px solid black;
   width: 100%;
   padding: 10px; }
   .galleryBlock .galleryText {
