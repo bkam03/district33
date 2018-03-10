@@ -76,5 +76,40 @@ body {
 }
 
 .aboutBlock {
+  display: flex;
+  flex-direction: column;
+
   padding: 20px;
+  #samAboutPic {
+    display: block;
+
+    height: auto;
+    width: 100%;
+  }
+  #aboutText {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .aboutBlock {
+    flex-direction: row;
+    justify-content: space-around;
+    #samAboutPic {
+      max-width: auto;
+      max-height: 30vh;
+    }
+    #aboutText {
+      margin-left: 30px;
+    }
+  }
+}
+@media screen and (min-width: 900px) {
+  .aboutBlock {
+    #samAboutPic {
+      max-height: 60vh;
+    }
+    #aboutText {
+    }
+  }
 }
