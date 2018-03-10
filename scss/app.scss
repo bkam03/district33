@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
   max-width: 1200px;
   margin: auto;
 }
@@ -44,7 +43,6 @@ body {
 
 .galleryBlock {
   width: 100%;
-
   padding: 10px;
 
   .galleryText {
