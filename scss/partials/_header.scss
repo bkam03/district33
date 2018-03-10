@@ -5,7 +5,7 @@
   flex-wrap: wrap;
 }
 
-$menuButtonTextColor: black;
+$menuButtonTextColor: white;
 $menuButtonSize: 22px;
 
 .mainMenu {
@@ -23,7 +23,7 @@ $menuButtonSize: 22px;
     margin: 5px;
     padding: 5px;
 
-    font-size: $menuButtonSize+4px;
+    font-size: $menuButtonSize + 4px;
     color: $menuButtonTextColor;
   }
 
@@ -49,6 +49,7 @@ $menuButtonSize: 22px;
 
     .menuButton {
       display: inline;
+      color: white;
     }
     #menuRevealButton {
       display: none;
