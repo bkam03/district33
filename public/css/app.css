@@ -123,8 +123,19 @@
 
 .issue {
   padding: 20px; }
-  .issue h2 {
+  .issue h2,
+  .issue h3 {
     text-align: center; }
+  .issue .issueHeader .issueTitle {
+    font-size: 5vh; }
+  .issue .list .listTitle {
+    font-size: 150%; }
+  .issue .list .listItem {
+    border-top: 3px solid green; }
+    .issue .list .listItem .itemTitle {
+      font-size: 1.3em; }
+    .issue .list .listItem .itemEnd {
+      font-weight: bold; }
 
 .Site {
   display: flex;

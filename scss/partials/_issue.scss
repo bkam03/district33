@@ -1,10 +1,33 @@
 .issue {
   padding: 20px;
 
-  h2 {
+  h2,
+  h3 {
     text-align: center;
   }
 
-  p {
+  .issueHeader {
+    .issueTitle {
+      font-size: 5vh;
+    }
+    .description {
+    }
+  }
+
+  .list {
+    .listTitle {
+      font-size: 150%;
+    }
+    .listItem {
+      border-top: 3px solid green;
+      .itemTitle {
+        font-size: 1.3em;
+      }
+      .itemDescription {
+      }
+      .itemEnd {
+        font-weight: bold;
+      }
+    }
   }
 }
