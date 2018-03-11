@@ -121,6 +121,11 @@
       font-size: 5vh;
       margin: 0px 0px 0px 0px; } }
 
+.issue {
+  padding: 20px; }
+  .issue h2 {
+    text-align: center; }
+
 body {
   background: white;
   font-family: Helvetica;

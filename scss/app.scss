@@ -1,7 +1,7 @@
 @import "./partials/header";
 @import "./partials/footer";
-@import "./partials/_home.scss";
-
+@import "./partials/home";
+@import "./partials/issue";
 $variable: green; //use like font: $variable;
 
 body {
