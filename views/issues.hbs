@@ -1,7 +1,7 @@
  {{#each issues}}
-<div class="issueBlock">
+<a class="issueBlock" href="/issues/{{link}}">
   <h2 class="issue">{{issue}}</h2>
   <h3 class="subheading">{{subheading}}</h3>
-  <p class="description">{{description}}</p>
-</div>
+  {{!-- <p class="description">{{description}}</p> --}}
+</a>
 {{/each}}
