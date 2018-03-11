@@ -142,7 +142,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px; }
+  padding: 20px;
+  text-decoration: none;
+  color: black; }
   .issueBlock .issue {
     margin-bottom: 5px; }
   .issueBlock .subheading {
