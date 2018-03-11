@@ -3,7 +3,7 @@ const exphbs = require("express-handlebars");
 const path = require("path");
 
 const galleryData = require("./public/js/galleryData.js");
-const issuesData = require("./public/js/issuesData.js");
+const issuesRoute = require("./routers/issues.js");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -17,9 +17,7 @@ app.set("view engine", "hbs");
 
 app.use(express.static(path.join(__dirname, "/public")));
 
-app.get("/issues", (req, res) => {
-  res.render("issues", issuesData);
-});
+app.use("/issues", issuesRoute);
 
 app.get("/gallery", (req, res) => {
   //console.log("galleryData", galleryData.galleries[1]);
