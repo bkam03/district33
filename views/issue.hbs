@@ -1,4 +1,16 @@
 <div class="issue">
-  <h2>{{issue}}</h2>
-  <p>{{{description}}}</p>
+  <div class="issueHeader">
+    <h2 class="issueTitle">{{issue}}</h2>
+    <p class="description">{{description}}</p>
+  </div>
+  <div class="list">
+    <h3 class="listTitle">{{listTitle}}</h3>
+    {{#each listItems}}
+    <div class="listItem">
+      <p class="itemTitle">{{itemTitle}}</p>
+      <p class="itemDescription">{{itemDescription}}</p>
+      <p class="itemEnd">{{itemEnd}}</p>
+    </div>
+    {{/each}}
+  </div>
 </div>
