@@ -33,13 +33,9 @@
     flex-direction: row;
     justify-content: flex-end; }
     .mainMenu .menuButton {
-      display: inline;
-      color: white; }
+      display: inline; }
     .mainMenu #menuRevealButton {
-      display: none; }
-  a {
-    font-size: 40px;
-    color: blue; } }
+      display: none; } }
 
 .footer {
   background: green;
