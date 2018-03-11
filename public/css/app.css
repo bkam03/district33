@@ -126,12 +126,18 @@
   .issue h2 {
     text-align: center; }
 
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
 body {
   background: white;
   font-family: Helvetica;
   margin: 0px 0px 0px 0px; }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
