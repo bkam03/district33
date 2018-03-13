@@ -28,6 +28,10 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
+app.get("/getinvolved", (req, res) => {
+  res.render("getinvolved");
+});
+
 app.get("/", (req, res) => {
   res.render("home"); //( view, dataToInput )
 });
