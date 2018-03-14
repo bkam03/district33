@@ -28,7 +28,7 @@
       text-decoration: none;
       color: white; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   .mainMenu {
     flex-direction: row;
     justify-content: flex-end; }
@@ -164,11 +164,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid black;
   padding: 20px;
+  width: 100%;
+  height: 1fr;
   text-decoration: none;
   color: black; }
   .issueBlock .issue {
-    margin-bottom: 5px; }
+    font-size: 5vh; }
   .issueBlock .subheading {
     margin: 0px; }
   .issueBlock .description {
