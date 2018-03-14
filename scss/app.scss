@@ -2,6 +2,9 @@
 @import "./partials/footer";
 @import "./partials/home";
 @import "./partials/issue";
+@import "./partials/about";
+@import "./partials/gallery";
+@import "./partials/issues";
 $variable: green; //use like font: $variable;
 
 .Site {
@@ -30,100 +33,4 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.issueBlock {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid black;
-  padding: 20px;
-  width: 100%;
-  height: 1fr;
-
-  text-decoration: none;
-  color: black;
-  .issue {
-    //margin-bottom: 5px;
-    font-size: 5vh;
-  }
-  .subheading {
-    margin: 0px;
-  }
-  .description {
-    font-size: 20px;
-  }
-}
-
-.galleryBlock {
-  width: 100%;
-  padding: 10px;
-
-  .galleryText {
-    padding: 10px;
-
-    .eventName {
-    }
-    .description {
-    }
-  }
-  .photos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    //justify-content: center;
-
-    .galleryPhoto {
-      margin: 10px;
-      // max-height: auto;
-      // max-width: 300px;
-      // width: auto;
-      // height: auto;
-
-      display: block;
-      max-width: 300px;
-      max-height: 200px;
-      width: auto;
-      height: auto;
-    }
-  }
-}
-
-.aboutBlock {
-  display: flex;
-  flex-direction: column;
-
-  padding: 20px;
-  #samAboutPic {
-    display: block;
-
-    height: auto;
-    width: 100%;
-  }
-  #aboutText {
-    font-size: 20px;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .aboutBlock {
-    flex-direction: row;
-    justify-content: space-around;
-    #samAboutPic {
-      max-width: auto;
-      max-height: 30vh;
-    }
-    #aboutText {
-      margin-left: 30px;
-    }
-  }
-}
-@media screen and (min-width: 900px) {
-  .aboutBlock {
-    #samAboutPic {
-      max-height: 60vh;
-    }
-    #aboutText {
-    }
-  }
 }
