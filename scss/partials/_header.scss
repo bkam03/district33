@@ -43,18 +43,16 @@ $menuButtonSize: 22px;
     }
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   .mainMenu {
     flex-direction: row;
     justify-content: flex-end;
 
     .menuButton {
       display: inline;
- 
     }
     #menuRevealButton {
       display: none;
     }
   }
-
 }
