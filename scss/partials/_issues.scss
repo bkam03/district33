@@ -1,0 +1,22 @@
+.issueBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+  width: 100%;
+  height: 1fr;
+
+  text-decoration: none;
+  color: black;
+  .issue {
+    //margin-bottom: 5px;
+    font-size: 5vh;
+  }
+  .subheading {
+    margin: 0px;
+  }
+  .description {
+    font-size: 20px;
+  }
+}
