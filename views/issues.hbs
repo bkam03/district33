@@ -1,7 +1,11 @@
- {{#each issues}}
-<a class="issueBlock" href="/issues/{{link}}">
-  <h2 class="issue">{{issue}}</h2>
-  <h3 class="subheading">{{subheading}}</h3>
-  {{!-- <p class="description">{{description}}</p> --}}
-</a>
-{{/each}}
+<div class="content">
+
+  {{#each issues}}
+  <a class="issueBlock" href="/issues/{{link}}">
+    <h2 class="issue">{{issue}}</h2>
+    <h3 class="subheading">{{subheading}}</h3>
+    {{!--
+    <p class="description">{{description}}</p> --}}
+  </a>
+  {{/each}}
+</div>

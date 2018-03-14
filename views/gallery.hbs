@@ -1,20 +1,23 @@
- {{#each galleries}}
-<div class="galleryBlock">
-  <div class="galleryText">
-    <h2 class="eventName">{{eventName}}</h2>
-    <p class="description">{{description}}</p>
-  </div>
-  <div class="photos">
-    {{#each photos}}
-    <img src={{photo}} alt="{{photo}}" class="galleryPhoto"> {{/each}}
-  </div>
-</div>
-{{/each}}
-<div class="lightBox">
-  <div class="lightBoxContent">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
-</div>
+<div class="content">
 
-<script src="js/galleryLightBox.js"></script>
+  {{#each galleries}}
+  <div class="galleryBlock">
+    <div class="galleryText">
+      <h2 class="eventName">{{eventName}}</h2>
+      <p class="description">{{description}}</p>
+    </div>
+    <div class="photos">
+      {{#each photos}}
+      <img src={{photo}} alt="{{photo}}" class="galleryPhoto"> {{/each}}
+    </div>
+  </div>
+  {{/each}}
+  <div class="lightBox">
+    <div class="lightBoxContent">
+      <span class="close">&times;</span>
+      <p>Some text in the Modal..</p>
+    </div>
+  </div>
+
+  <script src="js/galleryLightBox.js"></script>
+</div>

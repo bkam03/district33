@@ -81,7 +81,7 @@
     grid-column-end: 7;
     grid-row-start: 1;
     align-self: start;
-    margin-top: 30px; }
+    margin-top: 15px; }
     #fullSizeTitle .title {
       margin: 10px 0px 0px 0px;
       font-size: 7vh;
@@ -181,7 +181,7 @@
       height: auto; }
 
 .lightBox {
-  display: block;
+  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
