@@ -9,7 +9,7 @@ var closeButton = document.querySelector(".close");
 photoArray.forEach(photo => {
   photo.addEventListener("click", () => {
     lightBox.style.display = "block";
-    let imgSrcToDisplay = event.target.attributes[0].nodeValue;
+    var imgSrcToDisplay = event.target.attributes[0].nodeValue;
     lightBoxPhoto.src = imgSrcToDisplay;
   });
 });
