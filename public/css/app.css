@@ -231,6 +231,11 @@
   .issueBlock .description {
     font-size: 20px; }
 
+.getInvolved {
+  font-size: 20px; }
+  .getInvolved .address {
+    text-align: center; }
+
 .Site {
   display: flex;
   min-height: 100vh;
