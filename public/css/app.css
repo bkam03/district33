@@ -162,6 +162,12 @@
   .aboutBlock #samAboutPic {
     max-height: 60vh; } }
 
+.galleryPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px; }
+
 .galleryBlock {
   width: 100%;
   padding: 10px; }
