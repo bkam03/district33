@@ -8,9 +8,10 @@
 
   .issueHeader {
     .issueTitle {
-      font-size: 5vh;
+      font-size: 6vh;
     }
     .description {
+      font-size: 25px;
     }
   }
 
@@ -22,6 +23,7 @@
       border-top: 3px solid green;
       .itemTitle {
         font-size: 1.3em;
+        color: green;
       }
       .itemDescription {
       }
