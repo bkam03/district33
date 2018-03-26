@@ -5,37 +5,44 @@
   flex-wrap: wrap;
   min-height: 70px; }
 
-.mainMenu {
+.mobileMenu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; }
+  .mobileMenu .menuButton {
+    display: none; }
+
+.desktopMenu {
+  display: none;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.mobileMenu, .desktopMenu {
   width: 100%;
   max-width: 1200px;
   margin: auto; }
-  .mainMenu #menuRevealButton {
+  .mobileMenu #menuRevealButton, .desktopMenu #menuRevealButton {
     text-align: center;
     margin: 5px;
     padding: 5px;
     font-size: 26px;
     color: white; }
-  .mainMenu .menuButton {
+  .mobileMenu .menuButton, .desktopMenu .menuButton {
     margin: 5px 20px 5px 20px;
     padding: 5px;
-    text-align: center;
-    display: none; }
-    .mainMenu .menuButton a {
+    text-align: center; }
+    .mobileMenu .menuButton a, .desktopMenu .menuButton a {
       font-size: 22px;
       text-decoration: none;
       color: white; }
 
 @media screen and (min-width: 650px) {
-  .mainMenu {
-    flex-direction: row;
-    justify-content: flex-end; }
-    .mainMenu .menuButton {
-      display: inline; }
-    .mainMenu #menuRevealButton {
-      display: none; } }
+  .mobileMenu {
+    display: none; }
+  .desktopMenu {
+    display: flex; }
+    .desktopMenu .menuButton {
+      display: inline; } }
 
 .footer {
   background: green;
