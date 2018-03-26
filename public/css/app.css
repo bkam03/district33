@@ -127,13 +127,16 @@
   .issue h3 {
     text-align: center; }
   .issue .issueHeader .issueTitle {
-    font-size: 5vh; }
+    font-size: 6vh; }
+  .issue .issueHeader .description {
+    font-size: 25px; }
   .issue .list .listTitle {
     font-size: 150%; }
   .issue .list .listItem {
     border-top: 3px solid green; }
     .issue .list .listItem .itemTitle {
-      font-size: 1.3em; }
+      font-size: 1.3em;
+      color: green; }
     .issue .list .listItem .itemEnd {
       font-weight: bold; }
 
