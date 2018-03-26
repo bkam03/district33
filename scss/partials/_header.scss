@@ -9,10 +9,24 @@
 $menuButtonTextColor: white;
 $menuButtonSize: 22px;
 
-.mainMenu {
+.mobileMenu {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  .menuButton {
+    display: none;
+  }
+  
+}
+
+.desktopMenu {
+  display: none;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.mobileMenu, .desktopMenu {
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -34,8 +48,6 @@ $menuButtonSize: 22px;
     padding: 5px;
     text-align: center;
 
-    display: none;
-
     a {
       font-size: $menuButtonSize;
       text-decoration: none;
@@ -44,15 +56,13 @@ $menuButtonSize: 22px;
   }
 }
 @media screen and (min-width: 650px) {
-  .mainMenu {
-    flex-direction: row;
-    justify-content: flex-end;
-
+  .mobileMenu {
+    display: none;
+  }
+  .desktopMenu {
+    display: flex;
     .menuButton {
       display: inline;
-    }
-    #menuRevealButton {
-      display: none;
     }
   }
 }
