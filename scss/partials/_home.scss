@@ -17,6 +17,9 @@
   .slogan {
     margin: 0px 0px 0px 0px;
   }
+  .district {
+    margin: 0px 0px 0px 0px;
+  }
 }
 
 #mobileTitle {
@@ -24,20 +27,23 @@
   background: green;
 
   .title {
-    margin: 10px 0px 0px 0px;
+    //margin: 10px 0px 0px 0px;
     font-size: 100px;
     line-height: 0.8;
   }
   .slogan {
-    font-size: 30px;
-    margin: 0px 0px 0px 0px;
+    font-size: 45px;
+    //margin: 0px 0px 0px 0px;
+  }
+  .district {
+    font-size: 35px;
   }
 }
 #fullSizeTitle {
   display: none;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 725px) {
   #mobileTitle {
     display: none;
   }
@@ -51,13 +57,16 @@
     margin-top: 15px;
 
     .title {
-      margin: 10px 0px 0px 0px;
-      font-size: 7vh;
+      //margin: 10px 0px 0px 0px;
+      font-size: 6vh;
       line-height: 0.8;
     }
     .slogan {
-      font-size: 4vh;
-      margin: 0px 0px 0px 0px;
+      font-size: 3.5vh;
+      //margin: 0px 0px 0px 0px;
+    }
+    .district {
+      font-size: 2.5vh;
     }
   }
 }
@@ -78,7 +87,7 @@
   grid-template-rows: repeat(6, 1fr);
 }
 
-@media screen and (min-width: 1075px) {
+@media screen and (min-width: 800px) {
   #mobileTitle {
     display: none;
   }
@@ -90,13 +99,17 @@
     align-self: center;
     justify-self: start;
     .title {
-      margin: 10px 0px 0px 0px;
+      //margin: 10px 0px 0px 0px;
       font-size: 7vh;
       line-height: 0.8;
     }
     .slogan {
-      font-size: 5vh;
-      margin: 0px 0px 0px 0px;
+      font-size: 4vh;
+      //margin: 0px 0px 0px 0px;
+    }
+    .district {
+      font-size: 3vh;
+      //margin: 0px 0px 0px 0px;
     }
   }
 }
