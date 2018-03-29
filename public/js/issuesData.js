@@ -12,50 +12,50 @@ const issuesArray = [
     listItems: [
       {
         itemTitle: "Pearl Ridge Elementary School",
-        projects : [
+        projects: [
           {
             itemDescription:
-            "Design and construction for central courtyard improvements; ground and site improvements.",
+              "Design and construction for central courtyard improvements; ground and site improvements.",
             itemEnd: "Total Funding:  $135,900"
           }
         ]
       },
       {
         itemTitle: "Webling Elementary School",
-        projects : [
+        projects: [
           {
             itemDescription:
-            "To finance construction for new playground equipment and site improvements.",
+              "To finance construction for new playground equipment and site improvements.",
             itemEnd: "Total Funding: $125,000"
           }
         ]
       },
       {
         itemTitle: "Aiea  Intermediate School",
-        projects : [
+        projects: [
           {
             itemDescription:
-            "Design and construction for improvements to the cafeteria stage.",
+              "Design and construction for improvements to the cafeteria stage.",
             itemEnd: "Total Funding: $450,000"
           },
           {
             itemDescription:
-            "Design, construction, and equipment for an applied technology center.",
+              "Design, construction, and equipment for an applied technology center.",
             itemEnd: "Total Funding: $3,200,000"
           },
           {
             itemDescription:
-            "Construction and equipment to complete cafeteria renovation; ground and site improvements; equipment and appurtenances. ",
+              "Construction and equipment to complete cafeteria renovation; ground and site improvements; equipment and appurtenances. ",
             itemEnd: "Total Funding: $550,000"
-          },
+          }
         ]
       },
       {
         itemTitle: "Aiea High School",
-        projects : [
+        projects: [
           {
             itemDescription:
-            "Design, construction, and equipment for a new building, and renovation and expansion for a girls’ athletic locker room, weight training facility, and other athletic facilities; ground and site improvements; equipment and appurtenances.",
+              "Design, construction, and equipment for a new building, and renovation and expansion for a girls’ athletic locker room, weight training facility, and other athletic facilities; ground and site improvements; equipment and appurtenances.",
             itemEnd: "Total Funding: $3,900,000"
           }
         ]
@@ -67,7 +67,7 @@ const issuesArray = [
     subheading: "",
     link: "/community",
     description:
-      "Back to the Graffiti Busters- As a volunteer, we were so good. We had distributed so much paint that we had graffiti under control for a long time. So we disbanded.  Well, all good things come to an end, I guess.  Graffiti came back but someone was beating me to it and covering it up!  I found out who when I got elected but I fell ill so I couldn't participate. We did get together later on though and I joined their team- The Lions Club.   Lions Club members from different clubs get together to do different projects taking care of the community.</br></br> Wanting to focus on Aiea, we started doing many projects in my district. Well from Salt Lake to Pearl City to be honest.  Though we do go out to Kailua, Kalihi and Chinatown on occasion.  We have done so many projects in Aiea and Pearl City each Saturday morning, that I've lost count.  But I couldn't imagine what our community would look like if we didn't.   From graffiti painting, landscaping, to just picking up trash, Lions have done so much that you may have not even noticed.  Thank you to those also who have done things out there in the community.  Oh yes. I may not know who you are, but I do know the work you do. It has not gone unnoticed."
+      "Representative Sam Kong joined the Aiea Pearl City Business Association 25 years ago as he became a member of the business community as the owner/operator of Aiea Florist. As such he became a founding member of the Aiea Pearl City Graffiti Busters.  This was the beginning of his role in volunteerism in Aiea.  As a Graffiti Buster  Representative Kong is currently a member of the Mana-Loa Lions Club.  He can be found every Saturday morning painting over graffiti, landscaping, pulling weeds, picking up trash and performing other projects that improve the community. Representative Kong’s commitment to volunteerism started more than 25 years ago and continues through today.</br></br>Representative Kong’s sense of volunteerism extends to his support of members of the community.  He is known to drive senior citizens to/from their errands and physician appointments and to drive homeless individuals to church;  as a cab driver these routes are provided at no charge. As the former owner/operator of Aiea Florist he allowed homeless individuals to spend the night in his florist. Representative Kong’s sense of community and volunteerism is not a campaign issue, it is who he is. "
   },
   {
     issue: "Business",
@@ -81,7 +81,7 @@ const issuesArray = [
     subheading: "",
     link: "/homeless",
     description:
-      'When Representative Kong was the owner of Aiea Florist he let homeless individuals  spend the night in his florist. Solving the homeless crisis is a very personal, sincere issue for him, not a political platform.</br></br>Despite the state’s efforts in providing housing, homelessness continues to rise in Hawaii. According to the Department of Urban Development Hawaii has the highest rate of homeless per capita in the United States. Homelessness is a complex issue with multiple causes.</br></br>Representative Sam Kong’s goal is to address the homeless situation on Oahu through providing additional housing for homeless individuals and their families.  After personally assisting homeless individuals in the Aiea community for the past twenty five years, Representative Kong has  made homelessness a priority as an elected official.  His plan began with developing a team of government, business and and community leaders who could implement housing  solutions. They have identified properties throughout Oahu (City, State, and Federal) for possible development. Their first project is "Under and Upwards," a six acre Department  of transportation  (DOT) property located under the freeway in Pearl City off of Hugh St.  Representative Kong and his team  have recently received approval by the Pearl City neighborhood Board to continue with this project.</br></br>The second project is the Cedar Church  four acre property located on Waianae Valley Road.  (Crystal, can u add  more herr?) The third project is Hoomau Ke Ola, a 1,000-acre parcel which would serve  the chronically ill and drug abuse clients; This site is also located in Waianae.  The fourth project is a 3 ½ acre federal property Which will focus on meeting  the needs of homeless  veterans.  The land for these projects have been donated by various entities.  The planning  and design  of the first project has been done by a local architectural firm at minimal cost to the state. The building and operations of the housing will be a public-private endeavor.  The specific operational details such as admission criteria will be determined by the local community. Representative Kong is confident that implementing these projects will house homeless individuals and families in a cost conscious manner, and will be of  significant benefit to our community.'
+      'When Representative Kong was the owner of Aiea Florist he let homeless individuals  spend the night in his florist. Solving the homeless crisis is a very personal, sincere issue for him, not a political platform.</br></br>Despite the state’s efforts in providing housing, homelessness continues to rise in Hawaii. According to the Department of Urban Development Hawaii has the highest rate of homeless per capita in the United States. Homelessness is a complex issue with multiple causes.</br></br>Representative Sam Kong’s goal is to address the homeless situation on Oahu through providing additional housing for homeless individuals and their families.  After personally assisting homeless individuals in the Aiea community for the past twenty five years, Representative Kong has  made homelessness a priority as an elected official.  His plan began with developing a team of government, business and and community leaders who could implement housing  solutions. They have identified properties throughout Oahu (City, State, and Federal) for possible development. Their first project is "Under and Upwards," a six acre Department  of transportation  (DOT) property located under the freeway in Pearl City off of Hugh St.  Representative Kong and his team  have recently received approval by the Pearl City neighborhood Board to continue with this project.</br></br>The second project is the Cedar Church  four acre agricultural property located on Waianae Valley Road and will assist existing homeless individuals.  The third project is Hoomau Ke Ola, a 1,000-acre parcel which would serve  the chronically ill and drug abuse clients; This site is also located in Waianae.  The fourth project is a 3 ½ acre federal property in Aiea which will focus on meeting  the needs of homeless veterans.  The land for these projects have been donated by various entities.  The planning  and design  of the first project has been done by a local architectural firm at minimal cost to the state. The building and operations of the housing will be a public-private endeavor.  The specific operational details such as admission criteria will be determined by the local community. Representative Kong is confident that implementing these projects will house homeless individuals and families in a cost conscious manner, and will be of  significant benefit to our community.'
   }
 ];
 
