@@ -64,22 +64,24 @@
     line-height: 0.8; }
   .titleBox .slogan {
     margin: 0px 0px 0px 0px; }
+  .titleBox .district {
+    margin: 0px 0px 0px 0px; }
 
 #mobileTitle {
   height: 95vh;
   background: green; }
   #mobileTitle .title {
-    margin: 10px 0px 0px 0px;
     font-size: 100px;
     line-height: 0.8; }
   #mobileTitle .slogan {
-    font-size: 30px;
-    margin: 0px 0px 0px 0px; }
+    font-size: 45px; }
+  #mobileTitle .district {
+    font-size: 35px; }
 
 #fullSizeTitle {
   display: none; }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 725px) {
   #mobileTitle {
     display: none; }
   #fullSizeTitle {
@@ -90,12 +92,12 @@
     align-self: start;
     margin-top: 15px; }
     #fullSizeTitle .title {
-      margin: 10px 0px 0px 0px;
-      font-size: 7vh;
+      font-size: 6vh;
       line-height: 0.8; }
     #fullSizeTitle .slogan {
-      font-size: 4vh;
-      margin: 0px 0px 0px 0px; } }
+      font-size: 3.5vh; }
+    #fullSizeTitle .district {
+      font-size: 2.5vh; } }
 
 .landingPagePic {
   height: 100vh;
@@ -110,7 +112,7 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr); }
 
-@media screen and (min-width: 1075px) {
+@media screen and (min-width: 800px) {
   #mobileTitle {
     display: none; }
   #fullSizeTitle {
@@ -121,12 +123,12 @@
     align-self: center;
     justify-self: start; }
     #fullSizeTitle .title {
-      margin: 10px 0px 0px 0px;
       font-size: 7vh;
       line-height: 0.8; }
     #fullSizeTitle .slogan {
-      font-size: 5vh;
-      margin: 0px 0px 0px 0px; } }
+      font-size: 4vh; }
+    #fullSizeTitle .district {
+      font-size: 3vh; } }
 
 .issue {
   padding: 20px; }
@@ -135,8 +137,6 @@
     text-align: center; }
   .issue .issueHeader .issueTitle {
     font-size: 6vh; }
-  .issue .issueHeader .description {
-    font-size: 25px; }
   .issue .list .listTitle {
     font-size: 150%; }
   .issue .list .listItem {
