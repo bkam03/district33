@@ -10,7 +10,7 @@ const galleryArray = [
   {
     eventName: "Milken Educator Award",
     folder: "MilkenEducatorAward",
-    description: "########################################################"
+    description: ""
   },
   {
     eventName: "Pearl Harbor Survivor Funeral Service",
@@ -18,11 +18,11 @@ const galleryArray = [
     description:
       "Sam Kong at the funeral service for Pearl Harbor survivor Estelle Birdsell at Airzona Memorial on December 5, 2017."
   },
-  {
-    eventName: "Volcano Elementary Kids Visit",
-    folder: "VolcanoElementaryKidsVisit",
-    description: "Sam Kong and students from Volcano School."
-  },
+  // {
+  //   eventName: "Volcano Elementary Kids Visit",
+  //   folder: "VolcanoElementaryKidsVisit",
+  //   description: "Sam Kong and students from Volcano School."
+  // },
   {
     eventName: "Veteran's Caucus",
     folder: "Veteran'sCaucus",
