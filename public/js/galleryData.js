@@ -5,7 +5,7 @@ const galleryArray = [
     eventName: "HEW Meeting",
     folder: "HEWMeeting",
     description:
-      "Sam Kong and Architect Russell Wozniak presenting their Under and Upwards homeless housing project at Pearl City's Health, Education, and Welfare (HEW) Committee Hearing at Lehua Elementary on January 26, 2018."
+      "Representative Sam Kong and Architect Russell Wozniak presenting their Under and Upwards homeless housing project at Pearl City's Health, Education, and Welfare (HEW) Committee Hearing at Lehua Elementary on January 26, 2018."
   },
   {
     eventName: "Milken Educator Award",
@@ -16,7 +16,7 @@ const galleryArray = [
     eventName: "Pearl Harbor Survivor Funeral Service",
     folder: "PearlHarborSurvivorFuneralService",
     description:
-      "Sam Kong at the funeral service for Pearl Harbor survivor Estelle Birdsell at Airzona Memorial on December 5, 2017."
+      "Representative Sam Kong at the funeral service for Pearl Harbor survivor Estelle Birdsell at Airzona Memorial on December 5, 2017."
   },
   // {
   //   eventName: "Volcano Elementary Kids Visit",
