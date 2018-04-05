@@ -11,10 +11,15 @@
       <div class="listItem">
         <p class="itemTitle">{{itemTitle}}</p>
         {{#each projects}}
-          <p class="itemDescription">{{itemDescription}}</p>
-          <p class="itemEnd">{{itemEnd}}</p>        
+        <p class="itemDescription">{{itemDescription}}</p>
+        <p class="itemEnd">{{itemEnd}}</p>
         {{/each}}
       </div>
+      {{/each}}
+    </div>
+    <div class="videos">
+      {{#each videos}}
+      <iframe class="youtubeVideo" src={{source}} frameborder="0" ; allowfullscreen></iframe>
       {{/each}}
     </div>
   </div>
