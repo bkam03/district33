@@ -7,7 +7,7 @@
 }
 
 $menuButtonTextColor: white;
-$menuButtonSize: 22px;
+$menuButtonSize: 20px;
 
 .mobileMenu {
   display: flex;
@@ -55,7 +55,7 @@ $menuButtonSize: 22px;
     }
   }
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 700px) {
   .mobileMenu {
     display: none;
   }
