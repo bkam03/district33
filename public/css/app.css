@@ -137,6 +137,8 @@
     text-align: center; }
   .issue .issueHeader .issueTitle {
     font-size: 6vh; }
+  .issue .issueHeader .description {
+    font-size: 20px; }
   .issue .list .listTitle {
     font-size: 150%; }
   .issue .list .listItem {
