@@ -32,6 +32,10 @@ app.get("/getinvolved", (req, res) => {
   res.render("getinvolved");
 });
 
+app.get("/message", (req, res) => {
+  res.render("message");
+});
+
 app.get("/", (req, res) => {
   res.render("home"); //( view, dataToInput )
 });
