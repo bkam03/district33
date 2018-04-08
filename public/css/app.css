@@ -25,18 +25,18 @@
     text-align: center;
     margin: 5px;
     padding: 5px;
-    font-size: 26px;
+    font-size: 24px;
     color: white; }
   .mobileMenu .menuButton, .desktopMenu .menuButton {
     margin: 5px 20px 5px 20px;
     padding: 5px;
     text-align: center; }
     .mobileMenu .menuButton a, .desktopMenu .menuButton a {
-      font-size: 22px;
+      font-size: 20px;
       text-decoration: none;
       color: white; }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 700px) {
   .mobileMenu {
     display: none; }
   .desktopMenu {
@@ -274,6 +274,32 @@
   padding: 10px;
   font-size: 20px;
   text-align: center; }
+
+.messageBlock {
+  display: flex;
+  flex-direction: column;
+  font-size: 100px;
+  padding: 20px; }
+  .messageBlock #samAboutPic {
+    display: block;
+    height: auto;
+    width: 100%; }
+  .messageBlock #messageText {
+    font-size: 20px; }
+
+@media screen and (min-width: 600px) {
+  .messageBlock {
+    flex-direction: row;
+    justify-content: space-around; }
+    .messageBlock #samAboutPic {
+      max-width: auto;
+      max-height: 40vh; }
+    .messageBlock #messageText {
+      margin-left: 30px; } }
+
+@media screen and (min-width: 900px) {
+  .messageBlock #samAboutPic {
+    max-height: 60vh; } }
 
 .Site {
   display: flex;
