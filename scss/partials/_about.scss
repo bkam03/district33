@@ -12,6 +12,10 @@
   #aboutText {
     font-size: 20px;
   }
+  #iframe_container {
+    width: 300px;
+    height: 220px;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -25,6 +29,10 @@
     #aboutText {
       margin-left: 30px;
     }
+    #iframe_container {
+      height: 400px;
+      width: 550px;
+    }
   }
 }
 @media screen and (min-width: 900px) {
@@ -33,6 +41,10 @@
       max-height: 60vh;
     }
     #aboutText {
+    }
+    #iframe_container {
+      width: 800px;
+      height: 580px;
     }
   }
 }
