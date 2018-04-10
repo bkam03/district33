@@ -1,5 +1,17 @@
-.fullPrezi {
+.fullPrezi,
+.mobilePrezi,
+.ipadPrezi {
   margin: 15px;
+}
+
+.mobilePrezi {
+  display: block;
+}
+.ipadPrezi {
+  display: none;
+}
+.fullPrezi {
+  display: none;
 }
 
 .aboutBlock {
@@ -30,6 +42,15 @@
       margin-left: 30px;
     }
   }
+  .mobilePrezi {
+    display: none;
+  }
+  .ipadPrezi {
+    display: block;
+  }
+  .fullPrezi {
+    display: none;
+  }
 }
 @media screen and (min-width: 900px) {
   .aboutBlock {
@@ -38,5 +59,14 @@
     }
     #aboutText {
     }
+  }
+  .mobilePrezi {
+    display: none;
+  }
+  .ipadPrezi {
+    display: none;
+  }
+  .fullPrezi {
+    display: block;
   }
 }
