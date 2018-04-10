@@ -164,8 +164,19 @@
     width: 560px;
     height: 315px; } }
 
-.fullPrezi {
+.fullPrezi,
+.mobilePrezi,
+.ipadPrezi {
   margin: 15px; }
+
+.mobilePrezi {
+  display: block; }
+
+.ipadPrezi {
+  display: none; }
+
+.fullPrezi {
+  display: none; }
 
 .aboutBlock {
   display: flex;
@@ -186,11 +197,23 @@
       max-width: auto;
       max-height: 40vh; }
     .aboutBlock #aboutText {
-      margin-left: 30px; } }
+      margin-left: 30px; }
+  .mobilePrezi {
+    display: none; }
+  .ipadPrezi {
+    display: block; }
+  .fullPrezi {
+    display: none; } }
 
 @media screen and (min-width: 900px) {
   .aboutBlock #samAboutPic {
-    max-height: 60vh; } }
+    max-height: 60vh; }
+  .mobilePrezi {
+    display: none; }
+  .ipadPrezi {
+    display: none; }
+  .fullPrezi {
+    display: block; } }
 
 .galleryPage {
   flex: 1;
