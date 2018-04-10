@@ -164,6 +164,9 @@
     width: 560px;
     height: 315px; } }
 
+.fullPrezi {
+  margin: 15px; }
+
 .aboutBlock {
   display: flex;
   flex-direction: column;
@@ -174,9 +177,6 @@
     width: 100%; }
   .aboutBlock #aboutText {
     font-size: 20px; }
-  .aboutBlock #iframe_container {
-    width: 300px;
-    height: 220px; }
 
 @media screen and (min-width: 600px) {
   .aboutBlock {
@@ -186,17 +186,11 @@
       max-width: auto;
       max-height: 40vh; }
     .aboutBlock #aboutText {
-      margin-left: 30px; }
-    .aboutBlock #iframe_container {
-      height: 400px;
-      width: 550px; } }
+      margin-left: 30px; } }
 
 @media screen and (min-width: 900px) {
   .aboutBlock #samAboutPic {
-    max-height: 60vh; }
-  .aboutBlock #iframe_container {
-    width: 800px;
-    height: 580px; } }
+    max-height: 60vh; } }
 
 .galleryPage {
   flex: 1;
