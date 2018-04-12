@@ -169,6 +169,9 @@
 .ipadPrezi {
   margin: 30px; }
 
+.preziText {
+  font-size: 20px; }
+
 .mobilePrezi {
   display: block; }
 
