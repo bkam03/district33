@@ -10,7 +10,8 @@ const galleryArray = [
   {
     eventName: "Milken Educator Award",
     folder: "MilkenEducatorAward",
-    description: ""
+    description:
+      "Congratulations to Sam’s long-time friend, Ken Kang for winning the prestigious Milken Educator Award for his efforts to improve the technology resources at Aiea High School. Ken started the first STEM course and since then has held workshops for all seven schools in the Aiea district to help improve their technology systems."
   },
   {
     eventName: "Pearl Harbor Survivor Funeral Service",
@@ -27,7 +28,7 @@ const galleryArray = [
     eventName: "Veteran's Caucus",
     folder: "Veteran'sCaucus",
     description:
-      "Pictures from the Veterans' Caucus hosted by Representative Kong and Representative Gene Ward that was held on January 18, 2018.   Legislators and other guests came to learn what US Vets is doing for our veterans."
+      "Representative Sam Kong presents his idea for a under the freeway housing development project at the Veteran's Caucus that was held on January 18, 2018."
   }
 ];
 
