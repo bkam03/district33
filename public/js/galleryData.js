@@ -35,13 +35,17 @@ const galleryArray = [
 for (var i = 0; i < galleryArray.length; i++) {
   var currentGallery = galleryArray[i];
 
-  var currentGalleryPath = `./public/resources/${currentGallery.folder}/`;
+  var currentGalleryPath = `./public/resources/mainGallery/${
+    currentGallery.folder
+  }/`;
   var listOfPhotosInDirectory = fs.readdirSync(currentGalleryPath);
   currentGallery.photos = listOfPhotosInDirectory;
 
   for (var p = 0; p < currentGallery.photos.length; p++) {
     currentGallery.photos[p] = {
-      photo: `resources/${currentGallery.folder}/${currentGallery.photos[p]}`
+      photo: `resources/mainGallery/${currentGallery.folder}/${
+        currentGallery.photos[p]
+      }`
     };
   }
 }
