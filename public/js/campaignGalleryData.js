@@ -4,7 +4,8 @@ const galleryArray = [
   {
     eventName: "April 2018 Fundraiser",
     folder: "April2018Fundraiser",
-    description: "Representative Kong pictured here with..."
+    description:
+      'Representative Kong pictured on the cake with (from left) Representative James "Jimmy" Tokioka, Representative Representative Ken Ito, Representative Sharon Har, Representative Lei R Learmont, and Representative Calvin Say.'
   }
   // {
   //   eventName: "Volcano Elementary Kids Visit",
