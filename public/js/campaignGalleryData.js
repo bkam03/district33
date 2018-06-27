@@ -2,6 +2,12 @@ const fs = require("fs");
 
 const galleryArray = [
   {
+    eventName: "Printing T-Shirts",
+    folder: "T-ShirtPrinting",
+    description:
+      "Representative Kong and Campaign Manager Wayne Suzuki hard at work printing campaign T-shirts."
+  },
+  {
     eventName: "April 2018 Fundraiser",
     folder: "April2018Fundraiser",
     description:
