@@ -2,6 +2,23 @@ const fs = require("fs");
 
 const galleryArray = [
   {
+    eventName: "Campaigning",
+    folder: "Campaigning",
+    description:
+      "Representative Kong and his supporters having a great time campaigning in Aiea."
+  },
+  {
+    eventName: "June 9 Fundraiser",
+    folder: "June9Fundraiser",
+    description: "Representative Kong and his supporters at June 9 fundraiser."
+  },
+  {
+    eventName: "April Fun Fair",
+    folder: "AprilFunFair",
+    description:
+      "Representative kong and supporters volunteering at Aiea High School's annual Fun Fair, April, 3018."
+  },
+  {
     eventName: "Printing T-Shirts",
     folder: "T-ShirtPrinting",
     description:
