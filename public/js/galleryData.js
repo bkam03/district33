@@ -29,6 +29,18 @@ const galleryArray = [
     folder: "Veteran'sCaucus",
     description:
       "Representative Sam Kong presents his idea for a under the freeway housing development project at the Veteran's Caucus that was held on January 18, 2018."
+  },
+  {
+    eventName: "Yard Work",
+    folder: "Yardwork",
+    description:
+      "Representative Kong and supporters cleaning a constituent's yard of debris and over-growth. July 2018."
+  },
+  {
+    eventName: "Back To School at Aiea High",
+    folder: "BackToSchool",
+    description:
+      'Representative Kong at a "back to school" breakfast for Aiea High School teachers and staff, August 2018.'
   }
 ];
 
